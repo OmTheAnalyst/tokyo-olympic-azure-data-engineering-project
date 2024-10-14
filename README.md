@@ -9,7 +9,7 @@ Project Architecture:
  
 The Source of the Olympic data is Kaggle and stored into Github repositories and from github to Azure Data Lake Storage account Gen2.
 
-Then the data will be moved to the object container (Data Lake) through Azure data factory with the help of copy activity. 
+The data will be moved to the object container (Data Lake) through Azure data factory with the help of copy activity. 
 
 After data is being stored in Azure data factory, We transfer the data to the Azure Databricks through the connection.
 
